@@ -1,9 +1,18 @@
-'use client';
+"use client";
+
+import { motion } from "framer-motion";
+import styles from "../styles";
+import { navVariants } from "../utils/motion";
 
 const Navbar = () => (
-  <nav>
+  <motion.nav
+    variants={navVariants}
+    initial="hidden"
+    whileInView="show"
+    className={`${styles.xPaddings}relative py-8`}
+  >
     navbar
-  </nav>
+  </motion.nav>
 );
 
 export default Navbar;
