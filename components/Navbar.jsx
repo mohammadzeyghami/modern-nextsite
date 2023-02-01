@@ -1,5 +1,5 @@
 "use client";
-import search from "../public/search.svg";
+import { menu, search } from "../public/";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import styles from "../styles";
@@ -21,7 +21,15 @@ const Navbar = () => (
         alt="search"
         className="object-contain"
       />
-      <h2 className="font-extrabold text-[24px] leading-[30px]">Metaversus</h2>
+      <h2 className="font-extrabold text-[24px] leading-[30px] text-[white]">
+        Metaversus
+      </h2>
+      <Image
+        src={menu}
+        width={24}
+        height={24}
+        className="object-contain cursor-pointer"
+      />
     </div>
   </motion.nav>
 );
