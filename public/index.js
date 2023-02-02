@@ -3,7 +3,7 @@ export { default as arrow } from "./arrow.svg";
 export { default as cover } from "./cover.png";
 export { default as facebook } from "./facebook.svg";
 export { default as favicon } from "./favicon.ico";
-export { default as GetStarted } from "./get-started.png";
+export { default as getStarted } from "./get-started.png";
 export { default as headset } from "./headset.svg";
 export { default as instagram } from "./instagram.svg";
 export { default as linkedin } from "./linkedin.svg";
