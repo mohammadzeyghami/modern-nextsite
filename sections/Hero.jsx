@@ -5,15 +5,13 @@ import styles from "../styles";
 import { cover, stamp } from "../public/index";
 import { slideIn, staggerContainer, textVariant } from "../utils/motion";
 const Hero = () => (
-  <section
-    className={`${styles.yPaddings}sm:pl-16 pl-6 flex w-full justify-center`}
-  >
+  <section className={`${styles.yPaddings}sm:pl-16 pl-6 `}>
     <motion.div
       variants={staggerContainer}
       initial="hiiden"
       whileInView="show"
       viewport={{ once: false, amout: 0.25 }}
-      className={`${styles.innerWidth} max-auto flex flex-col`}
+      className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
       <div className="flex justify-center items-center flex-col relative z-10">
         <motion.h1
