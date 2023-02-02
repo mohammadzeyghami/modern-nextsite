@@ -8,7 +8,7 @@ import { planet07 } from "../public";
 import { planet08 } from "../public";
 import { planet09 } from "../public";
 import { vrpano } from "../public";
-import { headset } from "../public/headset.svg";
+import { headset } from "../public";
 export const exploreWorlds = [
   {
     id: "world-1",

@@ -1,11 +1,11 @@
 "use client";
-import { useState } from "react";
+
 import Image from "next/image";
 import { getStarted } from "../public";
 import { motion } from "framer-motion";
 import { startingFeatures } from "../constants/index";
 import styles from "../styles";
-import { StartSteps, TypingText, ExploreCard, TitleText } from "../components";
+import { StartSteps, TypingText, TitleText } from "../components";
 import { staggerContainer, fadeIn, planetVariants } from "../utils/motion";
 
 const GetStarted = () => (
