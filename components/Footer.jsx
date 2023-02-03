@@ -30,7 +30,11 @@ const Footer = () => (
           />
           <span className="font-normal text-[16px]">Enter The Metaverse</span>
           <div className="flex flex-col">
-            <div className="mb-[50px] h-[2px] bg-white opacity-10"></div>
+            <div className="mb-[50px] h-[2px] bg-white opacity-10">
+              <div className="flex items-center justify-between flex-wrap gap-4">
+                <h4>Metaversus</h4>
+              </div>
+            </div>
           </div>
         </button>
       </div>
