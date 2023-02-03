@@ -29,7 +29,9 @@ const Footer = () => (
             className="w-[24px] h-[24px] object-contain"
           />
           <span className="font-normal text-[16px]">Enter The Metaverse</span>
-          <div></div>
+          <div className="flex flex-col">
+            <div className="mb-[50px] h-[2px] bg-white opacity-10"></div>
+          </div>
         </button>
       </div>
     </div>
