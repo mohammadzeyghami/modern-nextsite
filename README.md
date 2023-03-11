@@ -1,4 +1,4 @@
-This is a landing site that has attractive animations, I hope you like it
+This is a landing page that has attractive animations, I hope you like it
 
 ![Metaversus - Google Chrome 1401_12_20 01_03_01 عـصـر](https://user-images.githubusercontent.com/108722492/224483523-d9b0113e-d7ec-4ec5-98be-70020f8024f6.png)
 
